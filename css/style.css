@@ -1,0 +1,333 @@
+/*TODO*/
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.logo {
+    display: inline-block;
+    height: 70px;
+    width: auto;
+    margin-left: 15px;
+    padding:0;
+}
+
+.logo-jcp {
+    display: inline-block;
+    width: auto;
+    height: 70px;
+    width:auto;
+    margin-left: 15px;
+    padding:0;
+}
+
+.logo-jcp {
+    transition: .5s;
+}
+
+.logo-jcp:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+
+/*HEADER*/
+header {
+    height: 80px;
+    width: 100%;
+    margin: 10px;
+    position: fixed;
+    z-index: 997;
+    top: 0;
+    background-color: whitesmoke; opacity: 95%;
+    text-decoration: none;
+}
+
+
+
+
+header nav {
+    width: 70%;
+    height: 80px;
+    margin-right: 0;
+    font-size: 18px;
+}
+
+
+
+header nav ul li {
+    height:40px;
+    width:auto;
+    display: inline-block;
+    padding-inline: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    
+}
+
+header nav ul li:hover {
+    background-color:rgb(185, 185, 185);
+    transition: 0.5s;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+header {
+    align-items: horizontal;
+}
+
+
+
+
+
+/*MAIN*/
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    position:relative;
+    min-height: 80vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.index-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+
+/*ESTO CAMBIA ALGO*/
+footer div ul li img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+footer div ul li {
+    list-style: none;
+    margin-bottom:20px;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.insta-logo {
+    width:40px;
+    height:40px;
+    margin-bottom: 20px;
+}
+
+.insta-logo {
+    transition: .5s;
+    padding-bottom: 20px;
+}
+
+.insta-logo:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.insta-box {
+    width:40px;
+    height:40px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+/*INICIO*/
+.sec-inicio{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel {
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+
+.texto-inicio {
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+
+/*FOTOS*/
+.fotos-general div img {    
+    margin: 10px;
+    width: 275px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+
+.fotos-general div img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+.fotos-general div {
+    display:inline-block;
+}
+
+.fotos-general {
+    margin:auto;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+
+}
+    
+
+
+
+/*RECURSOS*/
+.videos article div div{
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+
+
+/*SOBRE MI*/
+.main-mi {
+    align-content: center;
+}
+
+.sec-sobre-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.mi-foto {
+    display: inline-block;
+}
+
+.texto-sobre-mi {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    
+}
+
+.texto-int {
+    display: block;
+    list-style: none;
+}
+
+.fotografo.espaldas img {
+    width: 350px;
+    height: auto;
+}
+
+
+/*CONTACTO*/
+.form-section {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.form{
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    max-width: 350px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+}
+
+.form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form-input {
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline:none;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+
+}
+
+.form-input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}
+
+.form-cta {
+    font-size: 1rem;
+    background-color: rgb(39, 170, 199);
+    color:aliceblue;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
+}
